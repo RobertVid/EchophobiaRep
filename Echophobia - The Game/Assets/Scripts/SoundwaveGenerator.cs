@@ -11,7 +11,7 @@ public class SoundwaveGenerator : MonoBehaviour
         if (other.transform.tag == "Floor")
         {
             GameObject obj = Instantiate(objectToSpawn, transform.position, transform.rotation);
-            obj.GetComponent<SoundwaveBehavior>().Initialize(10, 1); // Size, Speed
+            obj.GetComponent<SoundwaveBehavior>().Initialize(10, 3); // Size, Speed
         }
     }
 }

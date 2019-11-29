@@ -21,6 +21,7 @@ public class SoundwaveBehavior : MonoBehaviour
         if (transform.localScale.x > _size)
         {
             transform.localScale = new Vector3(_size, _size, _size);
+            GameObject.Destroy(gameObject);
         }
         else
         {

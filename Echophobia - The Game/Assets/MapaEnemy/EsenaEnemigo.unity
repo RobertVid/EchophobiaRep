@@ -304,6 +304,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pieIzq: 0
   pieDer: 0
+  objectToSpawn: {fileID: 1046130590629970961, guid: a7d84ee000bbd6d4dba9e2ea7f46addb,
+    type: 3}
 --- !u!1001 &173143472
 PrefabInstance:
   m_ObjectHideFlags: 0
