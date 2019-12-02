@@ -1,0 +1,643 @@
+fileFormatVersion: 2
+guid: e75dc7c9cac7ad547b52223b5ce39ae0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Mesh_AplastaCabeza
+    100002: Mesh_Banco
+    100004: Mesh_BoteDeBasura
+    100006: Mesh_Botella
+    100008: Mesh_Buro
+    100010: Mesh_CajaCarton
+    100012: Mesh_CajaMadera
+    100014: Mesh_Chimenea
+    100016: Mesh_Copa
+    100018: Mesh_Cuadro01
+    100020: Mesh_Cuadro02
+    100022: Mesh_Cuadro03
+    100024: Mesh_Cuadro04
+    100026: Mesh_CunaJudas
+    100028: Mesh_Escritorio
+    100030: Mesh_Grifo
+    100032: Mesh_Lampara
+    100034: Mesh_LamparaMesa
+    100036: Mesh_LamparaTecho
+    100038: Mesh_Lavamanos
+    100040: Mesh_Librero
+    100042: Mesh_Libro
+    100044: Mesh_Maceta01
+    100046: Mesh_Maceta03
+    100048: Mesh_Maceta2
+    100050: Mesh_Marco
+    100052: Mesh_Martillo
+    100054: Mesh_MesaCentro
+    100056: Mesh_Pala
+    100058: Mesh_Pared
+    100060: Mesh_ParedPuerta
+    100062: Mesh_ParedVentana
+    100064: Mesh_Pc
+    100066: Mesh_Plato
+    100068: Mesh_Puerta
+    100070: Mesh_Radio
+    100072: Mesh_Refrigerador
+    100074: Mesh_RefriLaboratorio
+    100076: Mesh_Sillon01
+    100078: Mesh_Sillon02
+    100080: Mesh_Sillon03
+    100082: Mesh_Suelo
+    100084: Mesh_Tabla01
+    100086: Mesh_Tabla02
+    100088: Mesh_Tabla03
+    100090: Mesh_Tabla04
+    100092: Mesh_Tapete
+    100094: Mesh_Tarro
+    100096: Mesh_Techo
+    100098: Mesh_TV
+    100100: //RootNode
+    400000: Mesh_AplastaCabeza
+    400002: Mesh_Banco
+    400004: Mesh_BoteDeBasura
+    400006: Mesh_Botella
+    400008: Mesh_Buro
+    400010: Mesh_CajaCarton
+    400012: Mesh_CajaMadera
+    400014: Mesh_Chimenea
+    400016: Mesh_Copa
+    400018: Mesh_Cuadro01
+    400020: Mesh_Cuadro02
+    400022: Mesh_Cuadro03
+    400024: Mesh_Cuadro04
+    400026: Mesh_CunaJudas
+    400028: Mesh_Escritorio
+    400030: Mesh_Grifo
+    400032: Mesh_Lampara
+    400034: Mesh_LamparaMesa
+    400036: Mesh_LamparaTecho
+    400038: Mesh_Lavamanos
+    400040: Mesh_Librero
+    400042: Mesh_Libro
+    400044: Mesh_Maceta01
+    400046: Mesh_Maceta03
+    400048: Mesh_Maceta2
+    400050: Mesh_Marco
+    400052: Mesh_Martillo
+    400054: Mesh_MesaCentro
+    400056: Mesh_Pala
+    400058: Mesh_Pared
+    400060: Mesh_ParedPuerta
+    400062: Mesh_ParedVentana
+    400064: Mesh_Pc
+    400066: Mesh_Plato
+    400068: Mesh_Puerta
+    400070: Mesh_Radio
+    400072: Mesh_Refrigerador
+    400074: Mesh_RefriLaboratorio
+    400076: Mesh_Sillon01
+    400078: Mesh_Sillon02
+    400080: Mesh_Sillon03
+    400082: Mesh_Suelo
+    400084: Mesh_Tabla01
+    400086: Mesh_Tabla02
+    400088: Mesh_Tabla03
+    400090: Mesh_Tabla04
+    400092: Mesh_Tapete
+    400094: Mesh_Tarro
+    400096: Mesh_Techo
+    400098: Mesh_TV
+    400100: //RootNode
+    2100000: MAT_ParedPuerta
+    2100002: MAT_ParedVentana
+    2100004: MAT_Pared
+    2100006: MAT_Suelo
+    2100008: MAT_Techo
+    2100010: MAT_Tapete
+    2100012: MAT_Escritorio
+    2100014: MAT_Lampara
+    2100016: MAT_LamparaTecho
+    2100018: MAT_Libro
+    2100020: MAT_TV
+    2100022: MAT_Puerta
+    2100024: MAT_Marco
+    2100026: MAT_Librero
+    2100028: MAT_Radio
+    2100030: MAT_Refrigerador
+    2100032: MAT_CajaMadera
+    2100034: MAT_CajaCarton
+    2100036: MAT_RefriLaboratorio
+    2100038: MAT_Tabla01
+    2100040: MAT_Tabla02
+    2100042: MAT_Tabla03
+    2100044: MAT_Tabla04
+    2100046: MAT_Plato
+    2100048: MAT_BoteBasura
+    2100050: MAT_Buro
+    2100052: MAT_Cuadro03
+    2100054: MAT_Cuadro02
+    2100056: MAT_Cuadro01
+    2100058: MAT_Cuadro04
+    2100060: MAT_Grifo
+    2100062: MAT_Banco
+    2100064: MAT_Botella
+    2100066: MAT_Copa
+    2100068: MAT_CunaJudas
+    2100070: MAT_Lavamanos
+    2100072: MAT_LamparaMesa
+    2100074: MAT_Maceta01
+    2100076: MAT_Maceta02
+    2100078: MAT_Maceta03
+    2100080: MAT_Martillo
+    2100082: MAT_Pala
+    2100084: MAT_Sillon01
+    2100086: MAT_Sillon02
+    2100088: MAT_Sillon03
+    2100090: MAT_Pc
+    2100092: MAT_Tarro
+    2100094: MAT_MesaCentro
+    2100096: MAT_Chimenea
+    2100098: MAT_AplastaCabeza
+    2300000: Mesh_AplastaCabeza
+    2300002: Mesh_Banco
+    2300004: Mesh_BoteDeBasura
+    2300006: Mesh_Botella
+    2300008: Mesh_Buro
+    2300010: Mesh_CajaCarton
+    2300012: Mesh_CajaMadera
+    2300014: Mesh_Chimenea
+    2300016: Mesh_Copa
+    2300018: Mesh_Cuadro01
+    2300020: Mesh_Cuadro02
+    2300022: Mesh_Cuadro03
+    2300024: Mesh_Cuadro04
+    2300026: Mesh_CunaJudas
+    2300028: Mesh_Escritorio
+    2300030: Mesh_Grifo
+    2300032: Mesh_Lampara
+    2300034: Mesh_LamparaMesa
+    2300036: Mesh_LamparaTecho
+    2300038: Mesh_Lavamanos
+    2300040: Mesh_Librero
+    2300042: Mesh_Libro
+    2300044: Mesh_Maceta01
+    2300046: Mesh_Maceta03
+    2300048: Mesh_Maceta2
+    2300050: Mesh_Marco
+    2300052: Mesh_Martillo
+    2300054: Mesh_MesaCentro
+    2300056: Mesh_Pala
+    2300058: Mesh_Pared
+    2300060: Mesh_ParedPuerta
+    2300062: Mesh_ParedVentana
+    2300064: Mesh_Pc
+    2300066: Mesh_Plato
+    2300068: Mesh_Puerta
+    2300070: Mesh_Radio
+    2300072: Mesh_Refrigerador
+    2300074: Mesh_RefriLaboratorio
+    2300076: Mesh_Sillon01
+    2300078: Mesh_Sillon02
+    2300080: Mesh_Sillon03
+    2300082: Mesh_Suelo
+    2300084: Mesh_Tabla01
+    2300086: Mesh_Tabla02
+    2300088: Mesh_Tabla03
+    2300090: Mesh_Tabla04
+    2300092: Mesh_Tapete
+    2300094: Mesh_Tarro
+    2300096: Mesh_Techo
+    2300098: Mesh_TV
+    3300000: Mesh_AplastaCabeza
+    3300002: Mesh_Banco
+    3300004: Mesh_BoteDeBasura
+    3300006: Mesh_Botella
+    3300008: Mesh_Buro
+    3300010: Mesh_CajaCarton
+    3300012: Mesh_CajaMadera
+    3300014: Mesh_Chimenea
+    3300016: Mesh_Copa
+    3300018: Mesh_Cuadro01
+    3300020: Mesh_Cuadro02
+    3300022: Mesh_Cuadro03
+    3300024: Mesh_Cuadro04
+    3300026: Mesh_CunaJudas
+    3300028: Mesh_Escritorio
+    3300030: Mesh_Grifo
+    3300032: Mesh_Lampara
+    3300034: Mesh_LamparaMesa
+    3300036: Mesh_LamparaTecho
+    3300038: Mesh_Lavamanos
+    3300040: Mesh_Librero
+    3300042: Mesh_Libro
+    3300044: Mesh_Maceta01
+    3300046: Mesh_Maceta03
+    3300048: Mesh_Maceta2
+    3300050: Mesh_Marco
+    3300052: Mesh_Martillo
+    3300054: Mesh_MesaCentro
+    3300056: Mesh_Pala
+    3300058: Mesh_Pared
+    3300060: Mesh_ParedPuerta
+    3300062: Mesh_ParedVentana
+    3300064: Mesh_Pc
+    3300066: Mesh_Plato
+    3300068: Mesh_Puerta
+    3300070: Mesh_Radio
+    3300072: Mesh_Refrigerador
+    3300074: Mesh_RefriLaboratorio
+    3300076: Mesh_Sillon01
+    3300078: Mesh_Sillon02
+    3300080: Mesh_Sillon03
+    3300082: Mesh_Suelo
+    3300084: Mesh_Tabla01
+    3300086: Mesh_Tabla02
+    3300088: Mesh_Tabla03
+    3300090: Mesh_Tabla04
+    3300092: Mesh_Tapete
+    3300094: Mesh_Tarro
+    3300096: Mesh_Techo
+    3300098: Mesh_TV
+    4300000: Mesh_ParedPuerta
+    4300002: Mesh_ParedVentana
+    4300004: Mesh_Pared
+    4300006: Mesh_Suelo
+    4300008: Mesh_Techo
+    4300010: Mesh_Tapete
+    4300012: Mesh_Escritorio
+    4300014: Mesh_Lampara
+    4300016: Mesh_LamparaTecho
+    4300018: Mesh_Libro
+    4300020: Mesh_TV
+    4300022: Mesh_Puerta
+    4300024: Mesh_Marco
+    4300026: Mesh_Librero
+    4300028: Mesh_Radio
+    4300030: Mesh_Refrigerador
+    4300032: Mesh_CajaMadera
+    4300034: Mesh_CajaCarton
+    4300036: Mesh_RefriLaboratorio
+    4300038: Mesh_Tabla01
+    4300040: Mesh_Tabla02
+    4300042: Mesh_Tabla03
+    4300044: Mesh_Tabla04
+    4300046: Mesh_Plato
+    4300048: Mesh_BoteDeBasura
+    4300050: Mesh_Buro
+    4300052: Mesh_Cuadro03
+    4300054: Mesh_Cuadro02
+    4300056: Mesh_Cuadro01
+    4300058: Mesh_Cuadro04
+    4300060: Mesh_Grifo
+    4300062: Mesh_Banco
+    4300064: Mesh_Botella
+    4300066: Mesh_Copa
+    4300068: Mesh_CunaJudas
+    4300070: Mesh_Lavamanos
+    4300072: Mesh_LamparaMesa
+    4300074: Mesh_Maceta01
+    4300076: Mesh_Maceta2
+    4300078: Mesh_Maceta03
+    4300080: Mesh_Martillo
+    4300082: Mesh_Pala
+    4300084: Mesh_Sillon01
+    4300086: Mesh_Sillon02
+    4300088: Mesh_Sillon03
+    4300090: Mesh_Pc
+    4300092: Mesh_Tarro
+    4300094: Mesh_MesaCentro
+    4300096: Mesh_Chimenea
+    4300098: Mesh_AplastaCabeza
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_AplastaCabeza
+    second: {fileID: 2100000, guid: 7bf57da53bc6a624190a264cf48ed760, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Banco
+    second: {fileID: 2100000, guid: 692cfeaf567e44748be49f987c5c1c53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_BoteBasura
+    second: {fileID: 2100000, guid: b41745d3878f4ba46b3340f98bd40a72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Botella
+    second: {fileID: 2100000, guid: 569bda6ec6aa67c4a8ffbd7158e55656, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Buro
+    second: {fileID: 2100000, guid: 29b515c40fc1a1e44b393dcf5c3a3752, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_CajaCarton
+    second: {fileID: 2100000, guid: 8749f53d02c45ca4abf29580e7525cd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_CajaMadera
+    second: {fileID: 2100000, guid: 97bb51046f4d2f14bb7f696e46a1360c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Chimenea
+    second: {fileID: 2100000, guid: 85daeeffb10ed4c48992105732be8bee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Copa
+    second: {fileID: 2100000, guid: 9100f634d63f00241af3d0fab97d3ba0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Cuadro01
+    second: {fileID: 2100000, guid: 01d4ba0bbb86c1b4ebbd69bd7214d682, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Cuadro02
+    second: {fileID: 2100000, guid: 8ae37a0b4791a9a4ba330244fcf41a16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Cuadro03
+    second: {fileID: 2100000, guid: 4bb8d962fb48c764faeb689790b9974d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Cuadro04
+    second: {fileID: 2100000, guid: 6fa3cbaa24be2024583335cca3c4abd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_CunaJudas
+    second: {fileID: 2100000, guid: 0318b39908d189240b22758ade716586, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Escritorio
+    second: {fileID: 2100000, guid: 0f48ae4b463196645b5dab6dbce6c96f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Grifo
+    second: {fileID: 2100000, guid: 8c2a1e4986be9c84faf9e2b3a4e5b9ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Lampara
+    second: {fileID: 2100000, guid: 88e382ff02955e341b3133d9349a39b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_LamparaMesa
+    second: {fileID: 2100000, guid: cf82ac36d02241743b53f1c229db2d28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_LamparaTecho
+    second: {fileID: 2100000, guid: 0ac16342a9f984e4aa78ba774d8795a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Lavamanos
+    second: {fileID: 2100000, guid: 58aac5bb7ce2fc04b9adb21614c7e71b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Librero
+    second: {fileID: 2100000, guid: 65ec9d88e90059f47a1303c137452d5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Libro
+    second: {fileID: 2100000, guid: ff05b613db633fc45a8708efe470299c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Maceta01
+    second: {fileID: 2100000, guid: 7083cc6b59373b24382b93f4e899aab0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Maceta02
+    second: {fileID: 2100000, guid: 5102a9e0dd0615649876d64fef8d7d73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Maceta03
+    second: {fileID: 2100000, guid: 067eb2b0c7f78814880dc5f7b4a42c23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Marco
+    second: {fileID: 2100000, guid: ae37d0f30c9ef684f879675f32bb0667, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Martillo
+    second: {fileID: 2100000, guid: 65fd11b7f7def794da4fb56fd1716617, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_MesaCentro
+    second: {fileID: 2100000, guid: ac6d6f8fb2a548041bdbcbbbeb2a1c53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Pala
+    second: {fileID: 2100000, guid: bf526e5041f443245b19df2c1a722e7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Pared
+    second: {fileID: 2100000, guid: 78bb896511bbe644f982fe1463a0ea06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_ParedPuerta
+    second: {fileID: 2100000, guid: f08d3a6f4c47ac04f9c031b79f7495a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_ParedVentana
+    second: {fileID: 2100000, guid: 354a28f0c3cd44d49820e5ea6b5ebfd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Pc
+    second: {fileID: 2100000, guid: 02a0e59a02ba6fc40b78d302f21617d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Plato
+    second: {fileID: 2100000, guid: fcede3e59674e3b4b9b4392e391d6c43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Puerta
+    second: {fileID: 2100000, guid: 037151f7b0bf433489fbf6b4433430ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Radio
+    second: {fileID: 2100000, guid: bc72b4faa62b87546ab3b13f19fd9876, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_RefriLaboratorio
+    second: {fileID: 2100000, guid: 40988f666afb8044b88485e54ab53483, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Refrigerador
+    second: {fileID: 2100000, guid: 783ac9d85b02a7c4d8e6a3df2baa3760, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Sillon01
+    second: {fileID: 2100000, guid: 0e1bfd2f556dc4041bd60660659a2e88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Sillon02
+    second: {fileID: 2100000, guid: 19ad62fa45d2c8840b689839a2afd322, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Sillon03
+    second: {fileID: 2100000, guid: 073b33db82a6d064ea8ccf3f29e1ee94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Suelo
+    second: {fileID: 2100000, guid: 2b7591e5d7d28534a85299ce245866be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_TV
+    second: {fileID: 2100000, guid: b38b64a9eb3652c4b9a90ae6e3b42b95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Tabla01
+    second: {fileID: 2100000, guid: f01e3daf686afea4ea52caa05eb69113, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Tabla02
+    second: {fileID: 2100000, guid: 3bbd699326ecf234594ed3c9f7f62b41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Tabla03
+    second: {fileID: 2100000, guid: 1481670db8cb7be41a634629f4201128, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Tabla04
+    second: {fileID: 2100000, guid: 6d19a4f1a0b68d542bcf13049bfad839, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Tapete
+    second: {fileID: 2100000, guid: b8e361306ade5b9489910a4088f418e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Tarro
+    second: {fileID: 2100000, guid: f966622b3dddf8247bed5dac0701b8be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Techo
+    second: {fileID: 2100000, guid: ab4f26016913ef848ab5b5ac96ee3e04, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

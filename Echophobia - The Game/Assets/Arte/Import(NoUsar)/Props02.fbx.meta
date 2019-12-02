@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: af78de18f21a4074da877896491167c6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: extrudedSurface1
+    100002: Mesh_Candelabro
+    100004: Mesh_Extintor
+    100006: Mesh_LamparaQuirurgica
+    100008: Mesh_LamparaTecho
+    100010: Mesh_Locker
+    100012: Mesh_MesaQuirurjica
+    100014: Mesh_Podadora
+    100016: Mesh_SillaEscritorio
+    100018: Mesh_Tarro
+    100020: Mesh_Ventilador
+    100022: pCone29
+    100024: pCone88
+    100026: pCylinder30
+    100028: //RootNode
+    400000: extrudedSurface1
+    400002: Mesh_Candelabro
+    400004: Mesh_Extintor
+    400006: Mesh_LamparaQuirurgica
+    400008: Mesh_LamparaTecho
+    400010: Mesh_Locker
+    400012: Mesh_MesaQuirurjica
+    400014: Mesh_Podadora
+    400016: Mesh_SillaEscritorio
+    400018: Mesh_Tarro
+    400020: Mesh_Ventilador
+    400022: pCone29
+    400024: pCone88
+    400026: pCylinder30
+    400028: //RootNode
+    2100000: MAT_Candelabro
+    2100002: No Name
+    2100004: lambert1
+    2100006: MAT_Extintor
+    2100008: MAT_LamparaQuirurgica
+    2100010: MAT_LamparaTecho
+    2100012: MAT_Locker
+    2100014: MAT_MesaQuirurjica
+    2100016: MAT_Podarora
+    2100018: MAT_SillaEscritorio
+    2100020: MAT_Tarro
+    2100022: MAT_Ventilador
+    2300000: extrudedSurface1
+    2300002: Mesh_Candelabro
+    2300004: Mesh_Extintor
+    2300006: Mesh_LamparaQuirurgica
+    2300008: Mesh_LamparaTecho
+    2300010: Mesh_Locker
+    2300012: Mesh_MesaQuirurjica
+    2300014: Mesh_Podadora
+    2300016: Mesh_SillaEscritorio
+    2300018: Mesh_Tarro
+    2300020: Mesh_Ventilador
+    2300022: pCone29
+    2300024: pCone88
+    2300026: pCylinder30
+    3300000: extrudedSurface1
+    3300002: Mesh_Candelabro
+    3300004: Mesh_Extintor
+    3300006: Mesh_LamparaQuirurgica
+    3300008: Mesh_LamparaTecho
+    3300010: Mesh_Locker
+    3300012: Mesh_MesaQuirurjica
+    3300014: Mesh_Podadora
+    3300016: Mesh_SillaEscritorio
+    3300018: Mesh_Tarro
+    3300020: Mesh_Ventilador
+    3300022: pCone29
+    3300024: pCone88
+    3300026: pCylinder30
+    4300000: Mesh_Candelabro
+    4300002: pCylinder30
+    4300004: pCone29
+    4300006: pCone88
+    4300008: extrudedSurface1
+    4300010: Mesh_Extintor
+    4300012: Mesh_LamparaQuirurgica
+    4300014: Mesh_LamparaTecho
+    4300016: Mesh_Locker
+    4300018: Mesh_MesaQuirurjica
+    4300020: Mesh_Podadora
+    4300022: Mesh_SillaEscritorio
+    4300024: Mesh_Tarro
+    4300026: Mesh_Ventilador
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Candelabro
+    second: {fileID: 2100000, guid: e877093aaa24caf4ea60a58fe6263dcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Extintor
+    second: {fileID: 2100000, guid: 349805f288960344ab743be0d115030c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_LamparaQuirurgica
+    second: {fileID: 2100000, guid: 1a0ed34c26a36b241882e5e62e4e3879, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_LamparaTecho
+    second: {fileID: 2100000, guid: 982b8b95553dd18459bfa6be9a555ee1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Locker
+    second: {fileID: 2100000, guid: f57cdd1b31caf754c84b41fe164c8c1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_MesaQuirurjica
+    second: {fileID: 2100000, guid: 24b92c5688c567143b4a18c1b0f4448b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Podarora
+    second: {fileID: 2100000, guid: 4de7f9a1eb7e8614fb1256c6e2ae5f03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_SillaEscritorio
+    second: {fileID: 2100000, guid: a86a21d3f707b5c498c2a17ade520e53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Tarro
+    second: {fileID: 2100000, guid: 075882187ab42fb47ae73f2cd627bd57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Ventilador
+    second: {fileID: 2100000, guid: 34b5ff22375742b48866755aab07af8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 95a76ec40c150804a85d94a2f9345f50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 9fa6087d533d0054cbe125c0d96c13e8, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

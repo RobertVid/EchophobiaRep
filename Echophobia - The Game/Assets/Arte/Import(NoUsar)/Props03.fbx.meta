@@ -1,0 +1,292 @@
+fileFormatVersion: 2
+guid: 0ab9b605da7ec6245ba621c752e57646
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Mesh_AgitadorMagnetico
+    100002: Mesh_Bandeja
+    100004: Mesh_bisturi
+    100006: Mesh_Cocina01
+    100008: Mesh_Cocina02
+    100010: Mesh_Cocina03
+    100012: Mesh_Cocina04
+    100014: Mesh_Cocina05
+    100016: Mesh_Cocina06
+    100018: Mesh_Cocina07
+    100020: Mesh_Cocina08
+    100022: Mesh_Cocina09
+    100024: Mesh_Cocina10
+    100026: Mesh_gradilla
+    100028: Mesh_InstrumentoOperacion01
+    100030: Mesh_InstrumentoOperacion02
+    100032: Mesh_InstrumentoOperacion03
+    100034: Mesh_InstrumentoOperacion04
+    100036: //RootNode
+    400000: Mesh_AgitadorMagnetico
+    400002: Mesh_Bandeja
+    400004: Mesh_bisturi
+    400006: Mesh_Cocina01
+    400008: Mesh_Cocina02
+    400010: Mesh_Cocina03
+    400012: Mesh_Cocina04
+    400014: Mesh_Cocina05
+    400016: Mesh_Cocina06
+    400018: Mesh_Cocina07
+    400020: Mesh_Cocina08
+    400022: Mesh_Cocina09
+    400024: Mesh_Cocina10
+    400026: Mesh_gradilla
+    400028: Mesh_InstrumentoOperacion01
+    400030: Mesh_InstrumentoOperacion02
+    400032: Mesh_InstrumentoOperacion03
+    400034: Mesh_InstrumentoOperacion04
+    400036: //RootNode
+    2100000: MAT_AgitadorMagnetico
+    2100002: MAT_bisturi
+    2100004: MAT_gradilla
+    2100006: MAT_Bandeja
+    2100008: MAT_InstrumentoOperacion01
+    2100010: MAT_InstrumentoOperacion02
+    2100012: MAT_InstrumentoOperacion04
+    2100014: MAT_InstrumentoOperacion03
+    2100016: MAT_Cocina01
+    2100018: MAT_Cocina02
+    2100020: MAT_Cocina04
+    2100022: MAT_Cocina03
+    2100024: MAT_Cocina05
+    2100026: MAT_Cocina10
+    2100028: MAT_Cocina09
+    2100030: MAT_Cocina07
+    2100032: MAT_Cocina08
+    2100034: MAT_Cocina05.001
+    2300000: Mesh_AgitadorMagnetico
+    2300002: Mesh_Bandeja
+    2300004: Mesh_bisturi
+    2300006: Mesh_Cocina01
+    2300008: Mesh_Cocina02
+    2300010: Mesh_Cocina03
+    2300012: Mesh_Cocina04
+    2300014: Mesh_Cocina05
+    2300016: Mesh_Cocina06
+    2300018: Mesh_Cocina07
+    2300020: Mesh_Cocina08
+    2300022: Mesh_Cocina09
+    2300024: Mesh_Cocina10
+    2300026: Mesh_gradilla
+    2300028: Mesh_InstrumentoOperacion01
+    2300030: Mesh_InstrumentoOperacion02
+    2300032: Mesh_InstrumentoOperacion03
+    2300034: Mesh_InstrumentoOperacion04
+    3300000: Mesh_AgitadorMagnetico
+    3300002: Mesh_Bandeja
+    3300004: Mesh_bisturi
+    3300006: Mesh_Cocina01
+    3300008: Mesh_Cocina02
+    3300010: Mesh_Cocina03
+    3300012: Mesh_Cocina04
+    3300014: Mesh_Cocina05
+    3300016: Mesh_Cocina06
+    3300018: Mesh_Cocina07
+    3300020: Mesh_Cocina08
+    3300022: Mesh_Cocina09
+    3300024: Mesh_Cocina10
+    3300026: Mesh_gradilla
+    3300028: Mesh_InstrumentoOperacion01
+    3300030: Mesh_InstrumentoOperacion02
+    3300032: Mesh_InstrumentoOperacion03
+    3300034: Mesh_InstrumentoOperacion04
+    4300000: Mesh_AgitadorMagnetico
+    4300002: Mesh_bisturi
+    4300004: Mesh_gradilla
+    4300006: Mesh_Bandeja
+    4300008: Mesh_InstrumentoOperacion01
+    4300010: Mesh_InstrumentoOperacion02
+    4300012: Mesh_InstrumentoOperacion04
+    4300014: Mesh_InstrumentoOperacion03
+    4300016: Mesh_Cocina01
+    4300018: Mesh_Cocina02
+    4300020: Mesh_Cocina04
+    4300022: Mesh_Cocina03
+    4300024: Mesh_Cocina06
+    4300026: Mesh_Cocina10
+    4300028: Mesh_Cocina09
+    4300030: Mesh_Cocina07
+    4300032: Mesh_Cocina08
+    4300034: Mesh_Cocina05
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_AgitadorMagnetico
+    second: {fileID: 2100000, guid: fa1bb7248e2d2dd4d8cdfb875063b302, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Bandeja
+    second: {fileID: 2100000, guid: a4da112c0371aa248b085000c454206f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Cocina01
+    second: {fileID: 2100000, guid: 1e8b04218e0c4bd4b9e8b4e3b22f74ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Cocina02
+    second: {fileID: 2100000, guid: e1b975158ec724d4896b9f026c21e6c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Cocina03
+    second: {fileID: 2100000, guid: 2237ca640a1688e4aa9fc4954cef0021, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Cocina04
+    second: {fileID: 2100000, guid: 6f5f16edbc717354abc98a430d78e2e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Cocina05
+    second: {fileID: 2100000, guid: bc126e33509635546a3b55e63aeb7ed0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Cocina05.001
+    second: {fileID: 2100000, guid: 7ba26322c66b8e34c9c1d4a22b300b62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Cocina07
+    second: {fileID: 2100000, guid: 84efcc670c99d434286b960f60e0e33a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Cocina08
+    second: {fileID: 2100000, guid: 80963bd2e3f0c7c4e8a4eeedb3996922, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Cocina09
+    second: {fileID: 2100000, guid: 0b102bd51cc7e184bb6d15f54c176cb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Cocina10
+    second: {fileID: 2100000, guid: bf2d15b551f4d384c998db3e380ce716, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_InstrumentoOperacion01
+    second: {fileID: 2100000, guid: 97b260b3b20cf594ead4665e8208c9dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_InstrumentoOperacion02
+    second: {fileID: 2100000, guid: 9a0a7e5ea0c5d7e4dbb8338611f8f859, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_InstrumentoOperacion03
+    second: {fileID: 2100000, guid: 0315e587012c03645a9f9092e6368265, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_InstrumentoOperacion04
+    second: {fileID: 2100000, guid: efdd3e80ad23cad469f888f6ed2b4158, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_bisturi
+    second: {fileID: 2100000, guid: f7f3d91103fd0cc488bb5da1fd5a75b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_gradilla
+    second: {fileID: 2100000, guid: 30a04fa4b880caa4e81f87e903e61f48, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
