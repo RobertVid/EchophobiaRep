@@ -39,6 +39,9 @@ AnimatorStateTransition:
     m_ConditionEvent: ReturnPage
     m_EventTreshold: 0
   - m_ConditionMode: 2
+    m_ConditionEvent: ActualPage
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
     m_ConditionEvent: NextPage
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
@@ -151,7 +154,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400014, guid: b3342f2246684b84ebe7bc747db341e3, type: 3}
+  m_Motion: {fileID: 7400000, guid: fbfdf35538190bd4db12e9db10477ea1, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -195,6 +198,12 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: NextPage
     m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: ReturnPage
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: ActualPage
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6344339640946730199}
   m_Solo: 0
@@ -237,24 +246,30 @@ AnimatorController:
   m_Name: BoockAnimCont
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: NextPage
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: ReturnPage
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 0}
   - m_Name: StatGame
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
+  - m_Name: NextPage
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: ReturnPage
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: ActualPage
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 1
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -324,7 +339,7 @@ AnimatorStateMachine:
     m_Position: {x: 30, y: -80, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4493186169952739056}
-    m_Position: {x: 250, y: -90, z: 0}
+    m_Position: {x: 280, y: -80, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 5760936982116086837}
@@ -370,7 +385,16 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: ActualPage
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: NextPage
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: ReturnPage
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4724616079165437931}
   m_Solo: 0

@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Outline_obj
+  m_Name: Outline_Menu
   m_Shader: {fileID: 4800000, guid: 0fb40cd8646b3c945baafe6a8fc93a29, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -28,10 +28,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Outline: 0.02
+    - _Outline: 0.002
     - _ShadowSteps: 0
-    - _SpecularIntensity: 0.024
-    - _SpecularPower: 3.72
+    - _SpecularIntensity: 0
+    - _SpecularPower: 2.327953
     - _SpecularSteps: 2
     - _UseShadowGradient: 0
     m_Colors:
