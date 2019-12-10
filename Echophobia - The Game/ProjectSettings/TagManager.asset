@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Floor
   - GameQuestionManager
+  - Grabbable
   layers:
   - Default
   - TransparentFX
