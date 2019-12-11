@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: EnemigoDemonio
   m_Shader: {fileID: 4800000, guid: 1fc8c14fb3137b54ea7f8fc14a8c323a, type: 3}
-  m_ShaderKeywords: _BLURORREFRACTION_ON
+  m_ShaderKeywords: _BLURORREFRACTION_ON _RINLIGHTTOOGLE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -53,7 +53,7 @@ Material:
     - _FresnelExponent: 4.53
     - _OffsetSlider: 0.03080356
     - _RefractionIntensity: 0.0697
-    - _RinLightToogle: 0
+    - _RinLightToogle: 1
     - _SliderNoise: 1
     - _SliderWidth: 0.04858931
     - _UseSceenUVs: 0
