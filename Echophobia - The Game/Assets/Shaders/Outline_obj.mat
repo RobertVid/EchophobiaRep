@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: 0fb40cd8646b3c945baafe6a8fc93a29, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Outline: 0.02
+    - _Outline: 0.003
     - _ShadowSteps: 0
     - _SpecularIntensity: 0.024
     - _SpecularPower: 3.72
