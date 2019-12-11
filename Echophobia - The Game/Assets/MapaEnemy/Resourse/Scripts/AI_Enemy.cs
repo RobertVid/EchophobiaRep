@@ -33,6 +33,7 @@ public class AI_Enemy : MonoBehaviour
             {
                 agent.SetDestination(target.transform.position);
                 transform.LookAt(target.transform.position);
+                //Activar Shader
             }
             else {
                 agent.SetDestination(point);
@@ -93,5 +94,15 @@ public class AI_Enemy : MonoBehaviour
         }
         result = Vector3.zero;
         return false;
+    
+    
+    }
+
+    public void EscuchoAlPlyaer()
+    {
+        agent.SetDestination(target.transform.position);
+
+
+        //Activar shader 
     }
 }
