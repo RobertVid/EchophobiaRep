@@ -18,10 +18,11 @@ public class AI_Enemy : MonoBehaviour
     }
     public void OnTriggerEnter(Collider other)
     {
-
-
-            agent.isStopped=true;
+        if (other.CompareTag("Player"))
+        {
+            agent.isStopped = true;
             StartCoroutine(AnimAttack());
+        }
     
     }
 
