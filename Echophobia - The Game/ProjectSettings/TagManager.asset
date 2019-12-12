@@ -8,6 +8,7 @@ TagManager:
   - GameQuestionManager
   - Grabbable
   - DontWalk
+  - KeyItem
   layers:
   - Default
   - TransparentFX

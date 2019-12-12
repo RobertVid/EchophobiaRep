@@ -17,6 +17,7 @@ public class GrabberScript : MonoBehaviour
             if (hit.transform.tag == "Grabbable")
             {
                 //PressHelpText.SetActive(true);
+                hit.transform.gameObject.GetComponent<Renderer>().material.SetColor("_OutLineColor", Color.yellow);
                 if (Input.GetButtonDown("Activate"))
                 {
                     // Aqui se debe comunicar con el Player Status o algo asi para notificar que ya se agarro un objeto, se puede agarrar la informacion del script del objeto para saber que tipo de objeto se agarro.
@@ -30,8 +31,13 @@ public class GrabberScript : MonoBehaviour
                 //PressOpenText.SetActive(true);
                 if (Input.GetButtonDown("Activate"))
                 {
-                    //hit.transform.GetComponent<DoorBehaviour>().ToggleDoor();
-                    Destroy(hit.transform.gameObject);
+                    if (!hit.transform.gameObject.GetComponent<Animator>().GetBool("Girar"))
+                    {
+                        hit.transform.gameObject.GetComponent<Animator>().SetBool("Girar", true);
+                        //hit.transform.GetComponent<DoorBehaviour>().ToggleDoor();
+                        //Destroy(hit.transform.gameObject);
+                    }
+
                 }
             }
             else
