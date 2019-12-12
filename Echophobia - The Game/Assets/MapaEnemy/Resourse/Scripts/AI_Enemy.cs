@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.AI;
 public class AI_Enemy : MonoBehaviour
 {
-    public NavMeshAgent agent;
+    private NavMeshAgent agent;
     private GameObject target;
-    public Animator Anim;
+    private Animator Anim;
     private Vector3 point;
     float disolve = 0;
     private bool listenPlayer = false;
@@ -15,6 +15,8 @@ public class AI_Enemy : MonoBehaviour
     public void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player");
+        Anim = GetComponent<Animator>();
+        agent = GetComponent<NavMeshAgent>();
         CambiarPunto();
     }
 
