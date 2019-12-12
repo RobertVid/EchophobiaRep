@@ -15,7 +15,7 @@ public class SoundwaveBehavior : MonoBehaviour
 
         if (transform.localScale.x < _size)
         {
-            transform.localScale += new Vector3(_speed * 0.1f, _speed * 0.1f, _speed * 0.1f);
+            transform.localScale += new Vector3(_speed * 0.5f, _speed * 0.5f, _speed * 0.5f);
         }
 
         if (transform.localScale.x > _size)
