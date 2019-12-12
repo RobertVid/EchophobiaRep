@@ -85,5 +85,16 @@ public class VoiceInput : MonoBehaviour
         if (other.CompareTag("Enemy")) {
             other.gameObject.GetComponent<AI_Enemy>().EscuchoAlPlyaer();
         }
+        else
+        {
+            other.gameObject.GetComponent<Renderer>().material.SetFloat("_Outline", 0.003f);
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+
+       // if(other.gameObject.GetComponent<Renderer>().material.shader)
+            other.gameObject.GetComponent<Renderer>().material.SetFloat("_Outline", 0);
     }
 }

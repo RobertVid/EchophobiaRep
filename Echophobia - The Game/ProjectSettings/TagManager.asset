@@ -10,6 +10,7 @@ TagManager:
   - DontWalk
   - KeyItem
   - Door
+  - Enemy
   layers:
   - Default
   - TransparentFX

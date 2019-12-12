@@ -22,6 +22,7 @@ public class GrabberScript : MonoBehaviour
                 hit.transform.gameObject.GetComponent<Renderer>().material.SetColor("_OutLineColor", Color.yellow);
                 if (Input.GetButtonDown("Activate"))
                 {
+                    cont = 2;
                     // Aqui se debe comunicar con el Player Status o algo asi para notificar que ya se agarro un objeto, se puede agarrar la informacion del script del objeto para saber que tipo de objeto se agarro.
                     // Se le manda el ID al PlayerStatus para que decida que hacer con este Item
                     playerStatus.ReceiveItem(hit.transform.GetComponent<ItemData>().itemID);

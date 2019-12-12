@@ -10,7 +10,8 @@ public class FadeScript : MonoBehaviour
     public Toggle q1_1, q1_2, q2_1, q2_2, q3_1, q3_2; 
 
     private void Start()
-    {        
+    {
+        Time.timeScale = 1;
         title.SetActive(false);
         q1.SetActive(false);
         q2.SetActive(false);

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
+
 public class AI_Enemy : MonoBehaviour
 {
     private NavMeshAgent agent;
@@ -11,6 +13,9 @@ public class AI_Enemy : MonoBehaviour
     float disolve = 0;
     private bool listenPlayer = false;
     private bool seePlayer = true;
+
+    public GameObject objtxt, btn;
+    public Text _txt;
 
     public void Start()
     {
@@ -99,6 +104,11 @@ public class AI_Enemy : MonoBehaviour
         {
             agent.isStopped = true;
             StartCoroutine(AnimAttack());
+            objtxt.SetActive(true);
+            _txt.text = "You Die";
+            btn.SetActive(true);
+            Time.timeScale = 0;
+
             //Muerte
         }
 

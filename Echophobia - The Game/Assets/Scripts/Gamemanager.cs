@@ -1,16 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 public class Gamemanager : MonoBehaviour
 {
     QuestionTotal qt;
     public Transform posIni;
-    public GameObject demonio, pezfeo, canvasTxt;
+    public GameObject demonio, pezfeo, canvasTxt, objtxt, btn;
+    public Text _txt;
+
     // Start is called before the first frame update
     void Start()
     {
         canvasTxt.SetActive(false);
+        objtxt.SetActive(false);
+        btn.SetActive(false);
+        
         /*
         qt = GameObject.FindGameObjectWithTag("GameQuestionManager").GetComponent<QuestionTotal>();
         Debug.Log(qt.GetTotal());
@@ -39,5 +45,10 @@ public class Gamemanager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void ReturnGame()
+    {
+        SceneManager.LoadScene(1);
     }
 }
