@@ -7,7 +7,7 @@ public class GrabberScript : MonoBehaviour
     //public GameObject PressHelpText;
     public PlayerStatus playerStatus;
     public Gamemanager gmn;
-
+    int cont = 1;
     void Update()
     {
         RaycastHit hit;
@@ -32,11 +32,13 @@ public class GrabberScript : MonoBehaviour
             {
                 gmn.canvasTxt.SetActive(true);
                 //PressOpenText.SetActive(true);
-                if (Input.GetButtonDown("Activate"))
+                if (Input.GetButtonDown("Activate") && cont >= 1)
                 {
-                    if (!hit.transform.gameObject.GetComponent<Animator>().GetBool("Girar"))
+                    if (!hit.transform.gameObject.GetComponent<Animator>().GetBool("Open"))
                     {
-                        hit.transform.gameObject.GetComponent<Animator>().SetBool("Girar", true);
+                        
+                        hit.transform.gameObject.GetComponent<Animator>().SetBool("Open", true);
+                        cont--;
                         //hit.transform.GetComponent<DoorBehaviour>().ToggleDoor();
                         //Destroy(hit.transform.gameObject);
                     }
