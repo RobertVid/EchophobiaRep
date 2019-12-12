@@ -15,8 +15,8 @@ public class IsGround : MonoBehaviour
         {
             Debug.Log("Piso el píe izquierdo");
             lastCheck = Time.time;
-            GameObject obj = Instantiate(objectToSpawn, transform.position, transform.rotation);
-            obj.GetComponent<SoundwaveBehavior>().Initialize(10, 1);
+            //GameObject obj = Instantiate(objectToSpawn, transform.position, transform.rotation);
+            //obj.GetComponent<SoundwaveBehavior>().Initialize(10, 1);
         }
         /*
         if (pieDer && Time.time > lastCheck + 0.1f)
