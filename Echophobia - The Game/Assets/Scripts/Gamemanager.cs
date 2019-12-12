@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class Gamemanager : MonoBehaviour
 {
     QuestionTotal qt;
-    public Transform posIni;
     public GameObject demonio, pezfeo, canvasTxt, objtxt, btn;
     public Text _txt;
 
@@ -15,30 +14,29 @@ public class Gamemanager : MonoBehaviour
     {
         canvasTxt.SetActive(false);
         objtxt.SetActive(false);
-        btn.SetActive(false);
+        btn.SetActive(false);        
         
-        /*
         qt = GameObject.FindGameObjectWithTag("GameQuestionManager").GetComponent<QuestionTotal>();
         Debug.Log(qt.GetTotal());
         switch (qt.GetTotal())
         {            
             case 0:
-                Instantiate(demonio, posIni);
+                demonio.SetActive(true);
                 break;
             case 1:
-                Instantiate(pezfeo, posIni);
+                pezfeo.SetActive(true);
                 break;
             case 2:
-                Instantiate(demonio, posIni);
+                demonio.SetActive(true);
                 break;
             case 3:
-                Instantiate(pezfeo, posIni);
+                pezfeo.SetActive(true);
                 break;
             default:
-                Instantiate(demonio, posIni);
+                demonio.SetActive(true);
                 break;
         }
-        */
+        
     }
 
     // Update is called once per frame

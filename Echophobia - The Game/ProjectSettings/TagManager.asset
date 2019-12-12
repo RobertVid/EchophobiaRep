@@ -11,6 +11,8 @@ TagManager:
   - KeyItem
   - Door
   - Enemy
+  - Doctor
+  - Gamemanager
   layers:
   - Default
   - TransparentFX

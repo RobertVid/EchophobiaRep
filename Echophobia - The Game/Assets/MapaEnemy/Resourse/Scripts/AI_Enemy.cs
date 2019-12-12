@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class AI_Enemy : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class AI_Enemy : MonoBehaviour
     float disolve = 0;
     private bool listenPlayer = false;
     private bool seePlayer = true;
+
+    public FirstPersonController fpC;
+    
 
     public GameObject objtxt, btn;
     public Text _txt;
@@ -46,6 +50,7 @@ public class AI_Enemy : MonoBehaviour
                 transform.LookAt(target.transform.position);
                 //Activar Shader
                 seePlayer = true;
+                
             }
             else {
                 
@@ -107,8 +112,10 @@ public class AI_Enemy : MonoBehaviour
             objtxt.SetActive(true);
             _txt.text = "You Die";
             btn.SetActive(true);
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
             Time.timeScale = 0;
-
+            fpC.enabled = false;
             //Muerte
         }
 

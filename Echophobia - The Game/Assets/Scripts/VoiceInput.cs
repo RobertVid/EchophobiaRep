@@ -85,7 +85,7 @@ public class VoiceInput : MonoBehaviour
         if (other.CompareTag("Enemy")) {
             other.gameObject.GetComponent<AI_Enemy>().EscuchoAlPlyaer();
         }
-        else
+        if(other.tag != "Enemy" && other.tag != "Doctor" && other.tag != "Player" && other.tag != "Gamemanager")
         {
             other.gameObject.GetComponent<Renderer>().material.SetFloat("_Outline", 0.003f);
         }
@@ -94,7 +94,9 @@ public class VoiceInput : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
 
-       // if(other.gameObject.GetComponent<Renderer>().material.shader)
-            other.gameObject.GetComponent<Renderer>().material.SetFloat("_Outline", 0);
+        if (other.tag != "Enemy" && other.tag != "Doctor" && other.tag != "Player"  && other.tag != "Gamemanager")
+        {
+            other.gameObject.GetComponent<Renderer>().material.SetFloat("_Outline", 0.0f);
+        }
     }
 }
