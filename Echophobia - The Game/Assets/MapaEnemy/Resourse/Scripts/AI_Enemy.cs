@@ -9,6 +9,8 @@ public class AI_Enemy : MonoBehaviour
     public Animator Anim;
     private Vector3 point;
     float disolve = 0;
+    private bool listenPlayer = false;
+    private bool seePlayer = true;
 
     public void Start()
     {
@@ -30,17 +32,59 @@ public class AI_Enemy : MonoBehaviour
 
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 100))
         {
+            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
             if (hit.transform.tag == "Player")
             {
                 agent.SetDestination(target.transform.position);
                 transform.LookAt(target.transform.position);
                 //Activar Shader
+                seePlayer = true;
             }
             else {
+                
                 agent.SetDestination(point);
+                seePlayer = false;
             }
         }
+        float fovAngle = 10.0f;
+        Vector3 leftRayRotation = Quaternion.AngleAxis(-fovAngle, transform.up) * transform.forward;
+        Vector3 rightRayRotation = Quaternion.AngleAxis(fovAngle, transform.up) * transform.forward;
+        RaycastHit hit2 ;
+        if (Physics.Raycast(transform.position, leftRayRotation, out hit2, 100))
+        {
+            Debug.DrawRay(transform.position, leftRayRotation * hit2.distance, Color.yellow);
+            if (hit2.transform.tag == "Player")
+            {
+                agent.SetDestination(target.transform.position);
+                transform.LookAt(target.transform.position);
+                //Activar Shader
+                seePlayer = true;
+            }
         }
+
+        RaycastHit hit3;
+        if (Physics.Raycast(transform.position, rightRayRotation, out hit3, 100))
+        {
+            Debug.DrawRay(transform.position, rightRayRotation * hit3.distance, Color.yellow);
+            if (hit3.transform.tag == "Player")
+            {
+                agent.SetDestination(target.transform.position);
+                transform.LookAt(target.transform.position);
+                //Activar Shader
+                seePlayer = true;
+            }
+        }
+
+        if (seePlayer) {
+            //if veo al jugador y lo escucho para seguir hago esto
+            disolve += Time.deltaTime * 0.5f;
+            this.transform.GetChild(0).GetComponent<Renderer>().material.SetFloat("_SliderNoise", disolve);
+        }
+        else{
+            disolve -= Time.deltaTime * 0.5f;
+            this.transform.GetChild(0).GetComponent<Renderer>().material.SetFloat("_SliderNoise", disolve);
+        }
+    }
     public void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -101,15 +145,7 @@ public class AI_Enemy : MonoBehaviour
 
     public void EscuchoAlPlyaer()
     {
-        agent.SetDestination(target.transform.position);
-
-
-        //if veo al jugador y lo escucho para seguir hago esto
-
-        disolve += Time.deltaTime * 0.5f;
-        this.transform.GetChild(0).GetComponent<Renderer>().material.SetFloat("_SliderNoise", disolve);
-        //si ya no lo veo y ya no lo escucho para seguir
-        disolve -= Time.deltaTime * 0.5f;
-        this.transform.GetChild(0).GetComponent<Renderer>().material.SetFloat("_SliderNoise", disolve);
+        point = target.transform.position;
+        agent.SetDestination(point);
     }
 }
