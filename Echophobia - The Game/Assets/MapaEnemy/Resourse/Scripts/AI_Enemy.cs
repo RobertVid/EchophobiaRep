@@ -8,6 +8,7 @@ public class AI_Enemy : MonoBehaviour
     private GameObject target;
     public Animator Anim;
     private Vector3 point;
+    float disolve = 0;
 
     public void Start()
     {
@@ -103,6 +104,12 @@ public class AI_Enemy : MonoBehaviour
         agent.SetDestination(target.transform.position);
 
 
-        //Activar shader 
+        //if veo al jugador y lo escucho para seguir hago esto
+
+        disolve += Time.deltaTime * 0.5f;
+        this.transform.GetChild(0).GetComponent<Renderer>().material.SetFloat("_SliderNoise", disolve);
+        //si ya no lo veo y ya no lo escucho para seguir
+        disolve -= Time.deltaTime * 0.5f;
+        this.transform.GetChild(0).GetComponent<Renderer>().material.SetFloat("_SliderNoise", disolve);
     }
 }
