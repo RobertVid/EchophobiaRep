@@ -32,9 +32,9 @@ public class AI_Enemy : MonoBehaviour
 
         RaycastHit hit;
 
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 100))
+        if (Physics.Raycast(transform.position+new Vector3(0,1,0), transform.TransformDirection(Vector3.forward), out hit, 100))
         {
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
+            Debug.DrawRay(transform.position + new Vector3(0, 1, 0), transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
             if (hit.transform.tag == "Player")
             {
                 agent.SetDestination(target.transform.position);
@@ -52,9 +52,9 @@ public class AI_Enemy : MonoBehaviour
         Vector3 leftRayRotation = Quaternion.AngleAxis(-fovAngle, transform.up) * transform.forward;
         Vector3 rightRayRotation = Quaternion.AngleAxis(fovAngle, transform.up) * transform.forward;
         RaycastHit hit2 ;
-        if (Physics.Raycast(transform.position, leftRayRotation, out hit2, 100))
+        if (Physics.Raycast(transform.position + new Vector3(0, 1, 0), leftRayRotation, out hit2, 100))
         {
-            Debug.DrawRay(transform.position, leftRayRotation * hit2.distance, Color.yellow);
+            Debug.DrawRay(transform.position + new Vector3(0, 1, 0), leftRayRotation * hit2.distance, Color.yellow);
             if (hit2.transform.tag == "Player")
             {
                 agent.SetDestination(target.transform.position);
@@ -65,9 +65,9 @@ public class AI_Enemy : MonoBehaviour
         }
 
         RaycastHit hit3;
-        if (Physics.Raycast(transform.position, rightRayRotation, out hit3, 100))
+        if (Physics.Raycast(transform.position + new Vector3(0, 1, 0), rightRayRotation, out hit3, 100))
         {
-            Debug.DrawRay(transform.position, rightRayRotation * hit3.distance, Color.yellow);
+            Debug.DrawRay(transform.position + new Vector3(0, 1, 0), rightRayRotation * hit3.distance, Color.yellow);
             if (hit3.transform.tag == "Player")
             {
                 agent.SetDestination(target.transform.position);
@@ -79,12 +79,18 @@ public class AI_Enemy : MonoBehaviour
 
         if (seePlayer) {
             //if veo al jugador y lo escucho para seguir hago esto
-            disolve += Time.deltaTime * 0.5f;
-            this.transform.GetChild(0).GetComponent<Renderer>().material.SetFloat("_SliderNoise", disolve);
+            if (disolve <= 1)
+            {
+                disolve += Time.deltaTime * 0.5f;
+                this.transform.GetChild(0).GetComponent<Renderer>().material.SetFloat("_SliderNoise", disolve);
+            }
         }
         else{
-            disolve -= Time.deltaTime * 0.5f;
-            this.transform.GetChild(0).GetComponent<Renderer>().material.SetFloat("_SliderNoise", disolve);
+            if (disolve >= 0)
+            {
+                disolve -= Time.deltaTime * 0.5f;
+                this.transform.GetChild(0).GetComponent<Renderer>().material.SetFloat("_SliderNoise", disolve);
+            }
         }
     }
     public void OnTriggerEnter(Collider other)

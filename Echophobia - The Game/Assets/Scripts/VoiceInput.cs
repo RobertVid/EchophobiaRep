@@ -80,4 +80,10 @@ public class VoiceInput : MonoBehaviour
         yield return new WaitForSeconds(_waitTime);
         PlayAudio();
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Enemy")) {
+            other.gameObject.GetComponent<AI_Enemy>().EscuchoAlPlyaer();
+        }
+    }
 }
