@@ -9,6 +9,7 @@ TagManager:
   - Grabbable
   - DontWalk
   - KeyItem
+  - Door
   layers:
   - Default
   - TransparentFX

@@ -48,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AOSlider: 4.23
+    - _AOSlider: 5
     - _BlurOrRefraction: 1
     - _FresnelExponent: 4.53
     - _OffsetSlider: 0.03080356

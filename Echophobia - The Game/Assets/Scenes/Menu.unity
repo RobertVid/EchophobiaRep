@@ -487,8 +487,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 9.6, y: 2.6}
-  m_SizeDelta: {x: 39.4, y: 28.9}
+  m_AnchoredPosition: {x: 19, y: 0}
+  m_SizeDelta: {x: 123.6, y: 28.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &165863363
 MonoBehaviour:
@@ -512,7 +512,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 274cd160ebfa1404d898382c07e72e64, type: 3}
-    m_FontSize: 96
+    m_FontSize: 75
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -523,9 +523,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'No
-
-'
+  m_Text: Heat
 --- !u!222 &165863364
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1665,7 +1663,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 18, y: -725}
+  m_AnchoredPosition: {x: 18, y: -753}
   m_SizeDelta: {x: 949.9, y: 144.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &620237602
@@ -1695,13 +1693,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 145
-    m_Alignment: 3
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Do scream in Scary Movies Saga?
+  m_Text: What do you despise the most, humidity or aridity?
 --- !u!222 &620237603
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1760,8 +1758,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 41, y: -275}
-  m_SizeDelta: {x: 590.2, y: 144.2}
+  m_AnchoredPosition: {x: 10, y: -275}
+  m_SizeDelta: {x: 976.2, y: 144.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &678530683
 MonoBehaviour:
@@ -1790,13 +1788,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 145
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Do you like blood?
+  m_Text: What do you hate the most, cold or heat?
 --- !u!222 &678530684
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2213,8 +2211,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 10, y: -4.5}
-  m_SizeDelta: {x: 38.5, y: 64.7}
+  m_AnchoredPosition: {x: 8.6, y: -7.6}
+  m_SizeDelta: {x: 156.92, y: 64.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &798162233
 MonoBehaviour:
@@ -2238,7 +2236,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 274cd160ebfa1404d898382c07e72e64, type: 3}
-    m_FontSize: 96
+    m_FontSize: 75
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -2249,9 +2247,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'No
-
-'
+  m_Text: Burning
 --- !u!222 &798162234
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2294,8 +2290,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 14, y: 2.4}
-  m_SizeDelta: {x: 54.99, y: 31.45}
+  m_AnchoredPosition: {x: 8.7, y: -0.79999924}
+  m_SizeDelta: {x: 151.17, y: 31.45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &799286612
 MonoBehaviour:
@@ -2319,7 +2315,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 274cd160ebfa1404d898382c07e72e64, type: 3}
-    m_FontSize: 96
+    m_FontSize: 75
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -2330,9 +2326,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'No
-
-'
+  m_Text: Aridity
 --- !u!222 &799286613
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2376,8 +2370,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -168, y: -173}
-  m_SizeDelta: {x: 96.6, y: 57.800003}
+  m_AnchoredPosition: {x: -156, y: -200}
+  m_SizeDelta: {x: 191.09, y: 57.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &859414776
 MonoBehaviour:
@@ -3071,7 +3065,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -187, y: -173}
+  m_AnchoredPosition: {x: -187, y: -190}
   m_SizeDelta: {x: 96.6, y: 57.800003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1077104004
@@ -3287,8 +3281,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 195, y: -173}
-  m_SizeDelta: {x: 96.6, y: 57.800003}
+  m_AnchoredPosition: {x: 265.93, y: -173}
+  m_SizeDelta: {x: 160.36, y: 57.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1347878020
 MonoBehaviour:
@@ -3385,8 +3379,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 179, y: -173}
-  m_SizeDelta: {x: 96.6, y: 57.800003}
+  m_AnchoredPosition: {x: 200.5, y: -190}
+  m_SizeDelta: {x: 116, y: 57.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1348801520
 MonoBehaviour:
@@ -3482,7 +3476,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 13, y: -2}
+  m_AnchoredPosition: {x: 13, y: -5}
   m_SizeDelta: {x: 99.5, y: 41.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1367275070
@@ -3507,7 +3501,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 274cd160ebfa1404d898382c07e72e64, type: 3}
-    m_FontSize: 96
+    m_FontSize: 75
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -3518,7 +3512,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Yes
+  m_Text: Cold
 --- !u!222 &1367275071
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3993,8 +3987,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 198, y: -173}
-  m_SizeDelta: {x: 96.6, y: 57.800003}
+  m_AnchoredPosition: {x: 245.8, y: -200.00002}
+  m_SizeDelta: {x: 139.7, y: 57.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1733351645
 MonoBehaviour:
@@ -4170,8 +4164,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 13, y: 1}
-  m_SizeDelta: {x: 105.9, y: 32}
+  m_AnchoredPosition: {x: -4, y: -2}
+  m_SizeDelta: {x: 175.6, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1761549823
 MonoBehaviour:
@@ -4195,7 +4189,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 274cd160ebfa1404d898382c07e72e64, type: 3}
-    m_FontSize: 96
+    m_FontSize: 75
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -4206,7 +4200,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Yes
+  m_Text: Humidity
 --- !u!222 &1761549824
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4341,8 +4335,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -171, y: -173}
-  m_SizeDelta: {x: 96.6, y: 57.800003}
+  m_AnchoredPosition: {x: -169.7, y: -173}
+  m_SizeDelta: {x: 185.86, y: 57.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1834387356
 MonoBehaviour:
@@ -4513,8 +4507,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 13.354, y: -7}
-  m_SizeDelta: {x: 103.52, y: 64.7}
+  m_AnchoredPosition: {x: 11.707, y: -7}
+  m_SizeDelta: {x: 271.35, y: 64.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1910507431
 MonoBehaviour:
@@ -4538,7 +4532,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 274cd160ebfa1404d898382c07e72e64, type: 3}
-    m_FontSize: 96
+    m_FontSize: 75
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -4549,7 +4543,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Yes
+  m_Text: Drowning
 --- !u!222 &1910507432
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4869,7 +4863,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 23.5, y: -513}
+  m_AnchoredPosition: {x: 23.5, y: -533}
   m_SizeDelta: {x: 839, y: 144.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2074733684
@@ -4899,13 +4893,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 145
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Are you afraid of Darkness?
+  m_Text: What do you fear most, drowning or burning?
 --- !u!222 &2074733685
 CanvasRenderer:
   m_ObjectHideFlags: 0
