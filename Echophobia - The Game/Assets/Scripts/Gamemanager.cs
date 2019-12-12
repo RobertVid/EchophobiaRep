@@ -6,10 +6,12 @@ public class Gamemanager : MonoBehaviour
 {
     QuestionTotal qt;
     public Transform posIni;
-    public Gamemanager demonio, pezfeo;
+    public GameObject demonio, pezfeo, canvasTxt;
     // Start is called before the first frame update
     void Start()
     {
+        canvasTxt.SetActive(false);
+        /*
         qt = GameObject.FindGameObjectWithTag("GameQuestionManager").GetComponent<QuestionTotal>();
         Debug.Log(qt.GetTotal());
         switch (qt.GetTotal())
@@ -30,6 +32,7 @@ public class Gamemanager : MonoBehaviour
                 Instantiate(demonio, posIni);
                 break;
         }
+        */
     }
 
     // Update is called once per frame

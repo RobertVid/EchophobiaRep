@@ -6,16 +6,18 @@ public class GrabberScript : MonoBehaviour
 {
     //public GameObject PressHelpText;
     public PlayerStatus playerStatus;
+    public Gamemanager gmn;
 
     void Update()
     {
         RaycastHit hit;
-        Ray ray = GetComponent<Camera>().ScreenPointToRay(new Vector3(0, 0, 0));
+        Ray ray = GetComponent<Camera>().ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
 
         if (Physics.Raycast(ray, out hit))
         {
             if (hit.transform.tag == "Grabbable")
             {
+                gmn.canvasTxt.SetActive(true);
                 //PressHelpText.SetActive(true);
                 hit.transform.gameObject.GetComponent<Renderer>().material.SetColor("_OutLineColor", Color.yellow);
                 if (Input.GetButtonDown("Activate"))
@@ -28,6 +30,7 @@ public class GrabberScript : MonoBehaviour
             }
             else if (hit.transform.tag == "Door")
             {
+                gmn.canvasTxt.SetActive(true);
                 //PressOpenText.SetActive(true);
                 if (Input.GetButtonDown("Activate"))
                 {
@@ -43,11 +46,13 @@ public class GrabberScript : MonoBehaviour
             else
             {
                 //PressHelpText.SetActive(false);
+                gmn.canvasTxt.SetActive(false);
             }
         }
         else
         {
             //PressHelpText.SetActive(false);
+            gmn.canvasTxt.SetActive(false);
         }
     }
 }
