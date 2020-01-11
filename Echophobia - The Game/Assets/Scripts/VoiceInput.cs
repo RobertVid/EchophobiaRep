@@ -5,6 +5,7 @@ using UnityEngine;
 public class VoiceInput : MonoBehaviour
 {
     public GameObject testSoundSphere;
+    public float sphereSizeMultiplier = 30f;
 
     private AudioSource audioSource;
     private AudioClip recordingClip;
@@ -12,9 +13,18 @@ public class VoiceInput : MonoBehaviour
     private float currentUpdateTime = 0f;
     private float maxSoundSphereLifeTime = 1.0f;
     private float currentSoundSphereLifeTime = 0.0f;
+    private int minFreq;
+    private int maxFreq;
 
     void Start()
     {
+        Microphone.GetDeviceCaps(null, out minFreq, out maxFreq);
+
+        if (minFreq == 0 && maxFreq == 0)
+        {
+            maxFreq = 44100;
+        }
+
         audioSource = GetComponent<AudioSource>();
     }
 
@@ -37,9 +47,9 @@ public class VoiceInput : MonoBehaviour
 
             if (testSoundSphere != null)
             {
-                if ((GetSoundAmplitude(recordingClip) * 20) > testSoundSphere.transform.localScale.x || currentSoundSphereLifeTime >= maxSoundSphereLifeTime)
+                if ((GetSoundAmplitude(recordingClip) * sphereSizeMultiplier) > testSoundSphere.transform.localScale.x || currentSoundSphereLifeTime >= maxSoundSphereLifeTime)
                 {
-                    testSoundSphere.transform.localScale = new Vector3(GetSoundAmplitude(recordingClip), GetSoundAmplitude(recordingClip), GetSoundAmplitude(recordingClip)) * 20;
+                    testSoundSphere.transform.localScale = new Vector3(GetSoundAmplitude(recordingClip), GetSoundAmplitude(recordingClip), GetSoundAmplitude(recordingClip)) * sphereSizeMultiplier;
                     currentSoundSphereLifeTime = 0.0f;
                 }   
             }
@@ -66,7 +76,7 @@ public class VoiceInput : MonoBehaviour
 
     void StartRecording()
     {
-        recordingClip = Microphone.Start(null, true, 300, 44100);
+        recordingClip = Microphone.Start(null, true, 300, maxFreq);
         StartCoroutine(WaitAndPlay(0.1f));
     }
 
