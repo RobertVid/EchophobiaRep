@@ -1,5 +1,65 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1513427185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1513427186}
+  m_Layer: 0
+  m_Name: rightRaycast
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1513427186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513427185}
+  m_LocalRotation: {x: -0.13507368, y: -0.9531138, z: -0.2707836, w: 0.0023241972}
+  m_LocalPosition: {x: -0.0080001, y: -0.042999756, z: 0.07100016}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2286027781353704635}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -148.882, y: -4.604004, z: -162.58499}
+--- !u!1 &2036409172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2036409173}
+  m_Layer: 0
+  m_Name: leftRaycast
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2036409173
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036409172}
+  m_LocalRotation: {x: 0.08751939, y: -0.9614295, z: -0.26069382, w: 0.00570651}
+  m_LocalPosition: {x: 0.05199704, y: -0.018976398, z: 0.09495882}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2286027781353704695}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -149.982, y: 3.7479858, z: -191.408}
 --- !u!1 &2286027781353803905
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,6 +493,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2286027781353704583}
+  - {fileID: 1513427186}
   m_Father: {fileID: 2286027781353704585}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1362,6 +1423,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2286027781353704643}
+  - {fileID: 2036409173}
   m_Father: {fileID: 2286027781353704645}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1660,6 +1722,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0658d38be0ff50049b31ae68335dc5cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fpC: {fileID: 0}
+  objtxt: {fileID: 0}
+  btn: {fileID: 0}
+  _txt: {fileID: 0}
   range: 100
 --- !u!114 &2286027781353804197
 MonoBehaviour:
@@ -1677,6 +1743,12 @@ MonoBehaviour:
   pieDer: 0
   objectToSpawn: {fileID: 2382246764717870778, guid: b6a50565b7fb770478d4d8fa0b537d1a,
     type: 3}
+  rightfootprint: {fileID: 3975339757796486153, guid: 4d7e94185ecefbe4682ca0f14f87bfde,
+    type: 3}
+  leftfootprint: {fileID: 7314513149522536967, guid: 8560be739005c3c4e9c08b31b7a20307,
+    type: 3}
+  righfootTransform: {fileID: 1513427186}
+  leftfootTransform: {fileID: 2036409173}
 --- !u!54 &2286027781353804196
 Rigidbody:
   m_ObjectHideFlags: 0
