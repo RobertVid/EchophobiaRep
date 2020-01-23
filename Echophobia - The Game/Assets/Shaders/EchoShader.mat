@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: InterseccionAsobreBGlobal_A
-  m_Shader: {fileID: 4800000, guid: aa1941e04c1a164428709685aeaac3fe, type: 3}
+  m_Name: EchoShader
+  m_Shader: {fileID: 4800000, guid: efd882c7b524e94429600287dc60754f, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,7 +19,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs: []
-    m_Floats: []
+    m_Floats:
+    - _Cutoff: 0.5
+    - _Depth: 0.0172
+    - _FresnelExponent: 2.22
     m_Colors:
-    - _ColorA: {r: 0, g: 0, b: 0, a: 1}
-    - _ColorB: {r: 0.37166253, g: 0.8960863, b: 0.9056604, a: 1}
+    - _FresnelColor: {r: 1, g: 0.8470589, b: 0, a: 1}
+    - _IntersectionColor: {r: 1, g: 0.8475146, b: 0, a: 1}
+    - _IntersectionColor_Inside: {r: 0.4354308, g: 0.7510061, b: 0.8962264, a: 1}
+    - _MainColor: {r: 0.003070495, g: 0.4457837, b: 0.6509434, a: 1}
