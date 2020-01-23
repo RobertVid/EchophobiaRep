@@ -16,8 +16,6 @@ public class AI_Enemy : MonoBehaviour
     private bool seePlayer = true;
 
     public FirstPersonController fpC;
-    
-
     public GameObject objtxt, btn;
     public Text _txt;
 
@@ -107,8 +105,10 @@ public class AI_Enemy : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            agent.SetDestination(transform.position);
             agent.isStopped = true;
             StartCoroutine(AnimAttack());
+            target.GetComponent<GameOver>().Muerte(true);
             objtxt.SetActive(true);
             _txt.text = "You Die";
             btn.SetActive(true);
@@ -128,9 +128,7 @@ public class AI_Enemy : MonoBehaviour
     IEnumerator AnimAttack() {
         Anim.SetTrigger("UsarAtaque");
         Anim.SetFloat("Ataque", 1);
-        Debug.Log(Anim.GetCurrentAnimatorStateInfo(Anim.GetLayerIndex("Base Layer")).length);
         yield return new WaitForSeconds(2.7f);
-        Debug.Log(Anim.GetCurrentAnimatorStateInfo(Anim.GetLayerIndex("Base Layer")).length);
         agent.isStopped = false; ;
         
     }
@@ -173,4 +171,5 @@ public class AI_Enemy : MonoBehaviour
         point = target.transform.position;
         agent.SetDestination(point);
     }
+
 }
