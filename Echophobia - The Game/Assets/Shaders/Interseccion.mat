@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Interseccion
+  m_Shader: {fileID: 4800000, guid: 143f169b0a0745342ad3ddea3d1a884e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - _Cutoff: 0.5
+    - _Depth: 0.09124481
+    - _FresnelExponent: 2.623932
+    m_Colors:
+    - _FresnelColor: {r: 0.000303527, g: 0.16826946, b: 0.3813261, a: 1}
+    - _IntersectionColor: {r: 0.000303527, g: 0.16826946, b: 0.3813261, a: 1}
+    - _IntersectionColor_Inside: {r: 0.000303527, g: 0.16826946, b: 0.3813261, a: 1}
+    - _MainColor: {r: 0.003070495, g: 0.4457837, b: 0.6509434, a: 0.6}
