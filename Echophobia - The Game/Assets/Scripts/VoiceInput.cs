@@ -5,7 +5,7 @@ using UnityEngine;
 public class VoiceInput : MonoBehaviour
 {
     public GameObject testSoundSphere;
-    public float sphereSizeMultiplier = 30f;
+    public float sphereSizeMultiplier = 30f, radius;
 
     private AudioSource audioSource;
     private AudioClip recordingClip;
@@ -15,6 +15,7 @@ public class VoiceInput : MonoBehaviour
     private float currentSoundSphereLifeTime = 0.0f;
     private int minFreq;
     private int maxFreq;
+    private bool IsTalking = false;
 
     void Start()
     {
@@ -24,7 +25,7 @@ public class VoiceInput : MonoBehaviour
         {
             maxFreq = 44100;
         }
-
+        radius = 1000;
         audioSource = GetComponent<AudioSource>();
     }
 
@@ -33,10 +34,14 @@ public class VoiceInput : MonoBehaviour
         if (Input.GetButtonDown("PushToTalk"))
         {
             StartRecording();
+            IsTalking = true;
         }
         if (Input.GetButtonUp("PushToTalk"))
         {
             StopRecording();
+            IsTalking = false;
+
+
         }
 
         currentUpdateTime += Time.deltaTime;
@@ -50,6 +55,15 @@ public class VoiceInput : MonoBehaviour
                 if ((GetSoundAmplitude(recordingClip) * sphereSizeMultiplier) > testSoundSphere.transform.localScale.x || currentSoundSphereLifeTime >= maxSoundSphereLifeTime)
                 {
                     testSoundSphere.transform.localScale = new Vector3(GetSoundAmplitude(recordingClip), GetSoundAmplitude(recordingClip), GetSoundAmplitude(recordingClip)) * sphereSizeMultiplier;
+                    if (IsTalking)
+                    {
+                        radius = testSoundSphere.transform.localScale.x / 2;
+                    }
+                    else
+                    {
+                        radius = 1000;
+                    }
+                    
                     currentSoundSphereLifeTime = 0.0f;
                 }   
             }

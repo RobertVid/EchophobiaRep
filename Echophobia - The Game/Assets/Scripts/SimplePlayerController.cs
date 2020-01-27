@@ -14,6 +14,8 @@ public class SimplePlayerController : MonoBehaviour
     private float m_currentRadius;
     private IEnumerator m_growSequence;
 
+    
+
     // Update is called once per frame
     void Update()
     {
@@ -31,6 +33,8 @@ public class SimplePlayerController : MonoBehaviour
         Shader.SetGlobalVector("_PlayerPosition", new Vector4(transform.position.x, transform.position.y, transform.position.z, 0));
         Shader.SetGlobalFloat("_Radius", m_currentRadius);
         m_sphere.transform.localScale = Vector3.one * m_currentRadius * 4;
+
+        
         
     }
 
