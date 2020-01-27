@@ -1,0 +1,295 @@
+fileFormatVersion: 2
+guid: 08d563da6ff34ce41be3ac74e5ea1376
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4552812475908081677
+    second: EM_Patas_0
+  - first:
+      213: -3060729010549795451
+    second: EM_Patas_1
+  - first:
+      213: 7915586919396859206
+    second: EM_Patas_2
+  - first:
+      213: -1347386455599115945
+    second: EM_Patas_3
+  - first:
+      213: 8203201739575621724
+    second: EM_Patas_4
+  - first:
+      213: 5782229139442433392
+    second: EM_Patas_5
+  - first:
+      213: -8764107546813180265
+    second: EM_Patas_6
+  - first:
+      213: -2867895971477782048
+    second: EM_Patas_7
+  - first:
+      213: 148044110257393034
+    second: EM_Patas_8
+  - first:
+      213: 3260820571319294323
+    second: EM_Patas_9
+  - first:
+      213: -985770688203714628
+    second: EM_Patas_10
+  - first:
+      213: -5617277223008194429
+    second: EM_Patas_11
+  - first:
+      213: -4276951940929778096
+    second: EM_Patas_12
+  - first:
+      213: -5967314600620613637
+    second: EM_Patas_13
+  - first:
+      213: 1112922896744430744
+    second: EM_Patas_14
+  - first:
+      213: 3782594871703249194
+    second: EM_Patas_15
+  - first:
+      213: -1731559774108493699
+    second: EM_Patas_16
+  - first:
+      213: 603097017702543351
+    second: EM_Patas_17
+  - first:
+      213: 7023452481789815692
+    second: EM_Patas_18
+  - first:
+      213: -3840059342428999918
+    second: EM_Patas_19
+  - first:
+      213: -6909051353580875502
+    second: EM_Patas_20
+  - first:
+      213: 9110688521873491945
+    second: EM_Patas_21
+  - first:
+      213: 1578800255218931615
+    second: EM_Patas_22
+  - first:
+      213: -8895722947449295467
+    second: EM_Patas_23
+  - first:
+      213: -1931540710820792565
+    second: EM_Patas_24
+  - first:
+      213: 4357998375246482742
+    second: EM_Patas_25
+  - first:
+      213: -6760784838717373646
+    second: EM_Patas_26
+  - first:
+      213: -4944184167977012149
+    second: EM_Patas_27
+  - first:
+      213: 6048094881566354359
+    second: EM_Patas_28
+  - first:
+      213: 8445521944985036121
+    second: EM_Patas_29
+  - first:
+      213: 4149745019673068714
+    second: EM_Patas_30
+  - first:
+      213: 7466044946751555050
+    second: EM_Patas_31
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EM_Patas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 555
+        width: 291
+        height: 465
+      alignment: 9
+      pivot: {x: 0, y: 5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be3581b176a14a48975c4149ee2649a
+      internalID: -4552812475908081677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EM_Patas_1
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 558
+        width: 291
+        height: 459
+      alignment: 9
+      pivot: {x: 0, y: 5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2f48abe9221fc46ab4e0c7e50a6482
+      internalID: -3060729010549795451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EM_Patas_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 31
+        width: 291
+        height: 510
+      alignment: 9
+      pivot: {x: 0, y: 5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916065928b7f14a4a865ade9256d9fe7
+      internalID: 7915586919396859206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EM_Patas_3
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 45
+        width: 291
+        height: 510
+      alignment: 9
+      pivot: {x: 0, y: 5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df36455d281186949af24db716b5b799
+      internalID: -1347386455599115945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e34d039e0ec99844bbcfdda03f6b559a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

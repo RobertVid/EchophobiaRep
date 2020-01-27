@@ -1,0 +1,8 @@
+Microphone Sensitivity [slider]
+Master Volume [slider]
+Fullscreen [checkbox]
+
+Resume
+Options
+Quit To Menu
+Quit To Desktop
