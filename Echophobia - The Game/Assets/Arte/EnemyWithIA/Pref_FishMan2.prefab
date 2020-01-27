@@ -1546,6 +1546,7 @@ SkinnedMeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1670,7 +1671,7 @@ GameObject:
   - component: {fileID: 2286027781353804122}
   m_Layer: 0
   m_Name: Pref_FishMan2
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1726,6 +1727,8 @@ MonoBehaviour:
   objtxt: {fileID: 0}
   btn: {fileID: 0}
   _txt: {fileID: 0}
+  CanFollow: 0
+  CanAtack: 1
   range: 100
 --- !u!114 &2286027781353804197
 MonoBehaviour:
@@ -1763,7 +1766,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!195 &2286027781353804123
 NavMeshAgent:
@@ -1798,7 +1801,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.5
+  m_Radius: 2
   m_Center: {x: 0, y: 1.23, z: 0}
 --- !u!1 &2286027781353804125
 GameObject:
