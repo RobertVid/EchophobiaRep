@@ -25,6 +25,7 @@ public class GameOver : MonoBehaviour
     public void TerminarGame() {
 
         Vector3 rellposition = Enemy.transform.position - transform.position;
+        rellposition += (new Vector3(0,1,0));
         Quaternion Rotation = Quaternion.LookRotation(rellposition);
         transform.rotation = Quaternion.RotateTowards(transform.rotation, Rotation, 1f);
     }

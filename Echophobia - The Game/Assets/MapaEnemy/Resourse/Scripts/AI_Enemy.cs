@@ -123,6 +123,8 @@ public class AI_Enemy : MonoBehaviour
             {
                 CanAtack = false;
                 agent.isStopped = true;
+                this.transform.GetChild(0).GetComponent<Renderer>().material.SetFloat("_SliderNoise", 0.9f);
+                transform.LookAt(other.transform.position);
                 StartCoroutine(AnimAttack());
                 target.GetComponent<GameOver>().Muerte(true);
                 objtxt.SetActive(true);
