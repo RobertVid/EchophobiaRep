@@ -121,6 +121,7 @@ public class AI_Enemy : MonoBehaviour
         {
             if (CanAtack)
             {
+                Time.timeScale = 1;
                 CanAtack = false;
                 agent.isStopped = true;
                 this.transform.GetChild(0).GetComponent<Renderer>().material.SetFloat("_SliderNoise", 0.9f);
@@ -132,7 +133,7 @@ public class AI_Enemy : MonoBehaviour
                 btn.SetActive(true);
                 Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.None;
-                Time.timeScale = 0;
+                //Time.timeScale = 0;
                 fpC.enabled = false;
                 CanFollow = false;
                 agent.SetDestination(transform.position);

@@ -426,6 +426,7 @@ SkinnedMeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -2069,6 +2070,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0658d38be0ff50049b31ae68335dc5cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fpC: {fileID: 0}
+  objtxt: {fileID: 0}
+  btn: {fileID: 0}
+  _txt: {fileID: 0}
+  CanFollow: 0
+  CanAtack: 1
   range: 100
 --- !u!114 &2895329806634844228
 MonoBehaviour:
@@ -2086,6 +2093,10 @@ MonoBehaviour:
   pieDer: 0
   objectToSpawn: {fileID: 2382246764717870778, guid: b6a50565b7fb770478d4d8fa0b537d1a,
     type: 3}
+  rightfootprint: {fileID: 0}
+  leftfootprint: {fileID: 0}
+  righfootTransform: {fileID: 0}
+  leftfootTransform: {fileID: 0}
 --- !u!135 &2895329806634844224
 SphereCollider:
   m_ObjectHideFlags: 0

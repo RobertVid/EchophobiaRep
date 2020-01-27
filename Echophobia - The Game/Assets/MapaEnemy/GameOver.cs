@@ -23,7 +23,7 @@ public class GameOver : MonoBehaviour
     }
 
     public void TerminarGame() {
-
+        Enemy = GameObject.FindGameObjectWithTag("Enemy");
         Vector3 rellposition = Enemy.transform.position - transform.position;
         rellposition += (new Vector3(0,1,0));
         Quaternion Rotation = Quaternion.LookRotation(rellposition);
