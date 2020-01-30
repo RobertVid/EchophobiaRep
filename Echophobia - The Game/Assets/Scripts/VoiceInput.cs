@@ -46,7 +46,7 @@ public class VoiceInput : MonoBehaviour
 
         currentUpdateTime += Time.deltaTime;
         currentSoundSphereLifeTime += Time.deltaTime;
-        if (currentUpdateTime > 0.1f && recordingClip != null)
+        if (currentUpdateTime > 0.02f && recordingClip != null)
         {
             currentUpdateTime = 0.0f;
 

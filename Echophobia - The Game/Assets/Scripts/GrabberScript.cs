@@ -51,7 +51,7 @@ public class GrabberScript : MonoBehaviour
         RaycastHit hit;
         Ray ray = GetComponent<Camera>().ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
 
-        if (Physics.Raycast(ray, out hit, 6))
+        if (Physics.Raycast(ray, out hit, 10))
         {
             if (hit.transform.tag == "Grabbable")
             {
