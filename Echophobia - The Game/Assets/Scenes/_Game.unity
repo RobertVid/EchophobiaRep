@@ -1443,6 +1443,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 50.34588
       objectReference: {fileID: 0}
+    - target: {fileID: 2938193855882985566, guid: 7fa99dbb4753a944da8e2f0f0aa08a7c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 529b49bb1eaff6a41bbc87d096af7d3f, type: 2}
     m_RemovedComponents:
     - {fileID: 8011918144319056682, guid: 7fa99dbb4753a944da8e2f0f0aa08a7c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7fa99dbb4753a944da8e2f0f0aa08a7c, type: 3}
@@ -5172,8 +5177,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &354616545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5192,8 +5195,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -5852,6 +5853,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 56.24398
       objectReference: {fileID: 0}
+    - target: {fileID: 2938193855882985566, guid: 7fa99dbb4753a944da8e2f0f0aa08a7c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 529b49bb1eaff6a41bbc87d096af7d3f, type: 2}
     m_RemovedComponents:
     - {fileID: 8011918144319056682, guid: 7fa99dbb4753a944da8e2f0f0aa08a7c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7fa99dbb4753a944da8e2f0f0aa08a7c, type: 3}
@@ -10669,6 +10675,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 51.902966
       objectReference: {fileID: 0}
+    - target: {fileID: 2938193855882985566, guid: 7fa99dbb4753a944da8e2f0f0aa08a7c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 529b49bb1eaff6a41bbc87d096af7d3f, type: 2}
     m_RemovedComponents:
     - {fileID: 8011918144319056682, guid: 7fa99dbb4753a944da8e2f0f0aa08a7c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7fa99dbb4753a944da8e2f0f0aa08a7c, type: 3}
@@ -11913,8 +11924,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 274cd160ebfa1404d898382c07e72e64, type: 3}
     m_FontSize: 87
@@ -14652,8 +14661,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 274cd160ebfa1404d898382c07e72e64, type: 3}
     m_FontSize: 21
@@ -22487,6 +22494,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 56.24398
       objectReference: {fileID: 0}
+    - target: {fileID: 2938193855882985566, guid: 7fa99dbb4753a944da8e2f0f0aa08a7c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 529b49bb1eaff6a41bbc87d096af7d3f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7fa99dbb4753a944da8e2f0f0aa08a7c, type: 3}
 --- !u!1001 &1573566772
@@ -25029,8 +25041,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 274cd160ebfa1404d898382c07e72e64, type: 3}
     m_FontSize: 61
@@ -30849,11 +30859,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3766222593598121833, guid: e88db2fd05dafa046bcf44672732611f,
-        type: 3}
-      propertyPath: gmn
-      value: 
-      objectReference: {fileID: 1516607287}
     - target: {fileID: 3766222594813394989, guid: e88db2fd05dafa046bcf44672732611f,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -30864,6 +30869,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3766222593598121833, guid: e88db2fd05dafa046bcf44672732611f,
+        type: 3}
+      propertyPath: gmn
+      value: 
+      objectReference: {fileID: 1516607287}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e88db2fd05dafa046bcf44672732611f, type: 3}
 --- !u!1001 &4052853303145133593
