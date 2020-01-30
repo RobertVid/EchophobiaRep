@@ -123,4 +123,9 @@ public class VoiceInput : MonoBehaviour
             other.gameObject.GetComponent<Renderer>().material.SetFloat("_Outline", 0.0f);
         }
     }
+
+    public void ChangeSensitivity(float _newSensitivity)
+    {
+        sphereSizeMultiplier = 10 + _newSensitivity;
+    }
 }
