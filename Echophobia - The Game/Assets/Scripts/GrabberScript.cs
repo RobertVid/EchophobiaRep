@@ -8,16 +8,50 @@ public class GrabberScript : MonoBehaviour
     public PlayerStatus playerStatus;
     public GameObject grabbedObject;
     public Gamemanager gmn;
-    public float throwForce = 1.0f;
+    public float throwForce = 20f;
 
-    private bool carryingObject;
+    public bool carryingObject;
     private int cont = 1;
     void Update()
     {
+        if (Input.GetButtonDown("Activate"))
+        {
+            if (carryingObject)
+            {
+                grabbedObject.GetComponent<Throwable>().beingGrabbed = false;
+                grabbedObject.GetComponent<Rigidbody>().isKinematic = false;
+                grabbedObject.transform.parent = null;
+                carryingObject = false;
+                grabbedObject = null;
+            }
+            else
+            {
+                SendRaycast();
+            }
+        }
+        else
+        {
+            SendRaycast();
+        }
+
+        if (Input.GetButtonDown("Fire1") && carryingObject)
+        {
+            grabbedObject.GetComponent<Throwable>().beingGrabbed = false;
+            grabbedObject.GetComponent<Rigidbody>().isKinematic = false;
+            grabbedObject.transform.parent = null;
+            carryingObject = false;
+            grabbedObject.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * throwForce);
+            grabbedObject = null;
+        }
+    }
+
+    public void SendRaycast()
+    {
+        
         RaycastHit hit;
         Ray ray = GetComponent<Camera>().ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
 
-        if (Physics.Raycast(ray, out hit))
+        if (Physics.Raycast(ray, out hit, 3))
         {
             if (hit.transform.tag == "Grabbable")
             {
@@ -31,7 +65,7 @@ public class GrabberScript : MonoBehaviour
                     // Se le manda el ID al PlayerStatus para que decida que hacer con este Item
                     playerStatus.ReceiveItem(hit.transform.GetComponent<ItemData>().itemID);
                     Destroy(hit.transform.gameObject);
-                }   
+                }
             }
             else if (hit.transform.GetComponent<Throwable>())
             {
@@ -40,19 +74,11 @@ public class GrabberScript : MonoBehaviour
                 {
                     if (!carryingObject)
                     {
-                        grabbedObject = (hit.transform.gameObject);
-                        grabbedObject.GetComponent<Throwable>().beingGrabbed = true;
+                        grabbedObject = hit.transform.gameObject;
                         grabbedObject.GetComponent<Rigidbody>().isKinematic = true;
+                        grabbedObject.GetComponent<Throwable>().beingGrabbed = true;
                         grabbedObject.transform.parent = transform;
                         carryingObject = true;
-                    }
-                    else
-                    {
-                        grabbedObject.GetComponent<Throwable>().beingGrabbed = false;
-                        grabbedObject.GetComponent<Rigidbody>().isKinematic = false;     
-                        grabbedObject.transform.parent = null;
-                        carryingObject = false;
-                        grabbedObject = null;
                     }
                 }
             }
@@ -64,7 +90,7 @@ public class GrabberScript : MonoBehaviour
                 {
                     if (!hit.transform.gameObject.GetComponent<Animator>().GetBool("Open"))
                     {
-                        
+
                         hit.transform.gameObject.GetComponent<Animator>().SetBool("Open", true);
                         cont--;
                         //hit.transform.GetComponent<DoorBehaviour>().ToggleDoor();
@@ -84,34 +110,13 @@ public class GrabberScript : MonoBehaviour
             //PressHelpText.SetActive(false);
             gmn.canvasTxt.SetActive(false);
         }
-
-        if (Input.GetButtonDown("Activate"))
-        {
-            if (carryingObject)
-            {
-                grabbedObject.GetComponent<Throwable>().beingGrabbed = false;
-                grabbedObject.GetComponent<Rigidbody>().isKinematic = false;
-                grabbedObject.transform.parent = null;
-                carryingObject = false;
-                grabbedObject = null;
-            }
-        }
-
-        /*if (Input.GetButtonDown("Fire") && carryingObject)
-        {
-            grabbedObject.GetComponent<Throwable>().beingGrabbed = false;
-            grabbedObject.GetComponent<Rigidbody>().isKinematic = false;
-            grabbedObject.transform.parent = null;
-            carryingObject = false;
-            grabbedObject.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * throwForce);
-            grabbedObject = null;
-        }*/
     }
 
     public void LeaveObject()
     {
         if (carryingObject)
         {
+            grabbedObject.GetComponent<Throwable>().beingGrabbed = false;
             grabbedObject.GetComponent<Rigidbody>().isKinematic = false;
             grabbedObject.transform.parent = null;
             carryingObject = false;
