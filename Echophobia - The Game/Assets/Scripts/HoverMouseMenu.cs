@@ -13,6 +13,7 @@ public class HoverMouseMenu : MonoBehaviour
 
     private void Start()
     {
+        Cursor.lockState = CursorLockMode.None;
         txt.color = colorBase;
     }
 
@@ -47,6 +48,13 @@ public class HoverMouseMenu : MonoBehaviour
         _anim.SetBool("NextPage", true);
         _anim.SetBool("ReturnPage", false);
         _anim.SetBool("ActualPage", false);
+        txt.color = colorClick;
+    }
+
+
+    public void ClickExit()
+    {
+        Application.Quit();
         txt.color = colorClick;
     }
 
